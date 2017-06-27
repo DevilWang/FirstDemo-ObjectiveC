@@ -101,6 +101,8 @@
 		B947024A1F00F10B00838D01 /* Github_Project */ = {
 			isa = PBXGroup;
 			children = (
+				B947027F1F01FD3300838D01 /* Resources */,
+				B947027E1F01FD1D00838D01 /* Classes */,
 				B947024E1F00F10B00838D01 /* AppDelegate.h */,
 				B947024F1F00F10B00838D01 /* AppDelegate.m */,
 				B94702511F00F10B00838D01 /* ViewController.h */,
@@ -138,6 +140,20 @@
 				B94702721F00F10B00838D01 /* Info.plist */,
 			);
 			path = Github_ProjectUITests;
+			sourceTree = "<group>";
+		};
+		B947027E1F01FD1D00838D01 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B947027F1F01FD3300838D01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
