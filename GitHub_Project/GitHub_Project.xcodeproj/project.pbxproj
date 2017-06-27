@@ -15,6 +15,7 @@
 		B947025B1F00F10B00838D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94702591F00F10B00838D01 /* LaunchScreen.storyboard */; };
 		B94702661F00F10B00838D01 /* Github_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B94702651F00F10B00838D01 /* Github_ProjectTests.m */; };
 		B94702711F00F10B00838D01 /* Github_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B94702701F00F10B00838D01 /* Github_ProjectUITests.m */; };
+		B94702821F02090900838D01 /* GitCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = B94702811F02090900838D01 /* GitCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B947026C1F00F10B00838D01 /* Github_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Github_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94702701F00F10B00838D01 /* Github_ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Github_ProjectUITests.m; sourceTree = "<group>"; };
 		B94702721F00F10B00838D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94702801F02090900838D01 /* GitCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitCommand.h; sourceTree = "<group>"; };
+		B94702811F02090900838D01 /* GitCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				B94702591F00F10B00838D01 /* LaunchScreen.storyboard */,
 				B947025C1F00F10B00838D01 /* Info.plist */,
 				B947024B1F00F10B00838D01 /* Supporting Files */,
+				B94702801F02090900838D01 /* GitCommand.h */,
+				B94702811F02090900838D01 /* GitCommand.m */,
 			);
 			path = Github_Project;
 			sourceTree = "<group>";
@@ -291,6 +296,7 @@
 			files = (
 				B94702531F00F10B00838D01 /* ViewController.m in Sources */,
 				B94702501F00F10B00838D01 /* AppDelegate.m in Sources */,
+				B94702821F02090900838D01 /* GitCommand.m in Sources */,
 				B947024D1F00F10B00838D01 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
